@@ -1,6 +1,6 @@
 # Demo for testing CDK IaC with TypeScript and Jest
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+The `cdk.json` file tells the CDK Toolkit how to execute the app.
 
 ## Useful commands
 

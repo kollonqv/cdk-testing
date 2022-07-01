@@ -15,4 +15,4 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 * `npm run test`    perform the jest unit tests
 
-Runs a test in `/test/cdk-testing.test.ts` which checks that property `AWS::SQS::Queue` exists in the CDK template which is created during the test. Same CloudFormation emplate can be generated manually using CDK CLI with `cdk synth`. CloudFormation template `CdkTestingStack.template.json` is created under `cdk.out` folder
+Runs a test in `test/cdk-testing.test.ts` which checks that property `AWS::SQS::Queue` exists in the CDK template which is created during the test. `AWS::SQS::Queue` property is created in `lib/cdk-testing-stack.ts`. The CloudFormation template can be generated manually using CDK CLI with `cdk synth`. CloudFormation template `CdkTestingStack.template.json` is created under `cdk.out` folder
